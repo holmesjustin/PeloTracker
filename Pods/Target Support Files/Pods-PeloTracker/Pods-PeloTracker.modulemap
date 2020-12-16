@@ -1,0 +1,6 @@
+framework module Pods_PeloTracker {
+  umbrella header "Pods-PeloTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

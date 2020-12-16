@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E5767FA044D29C2DBF736CF3 /* Pods_PeloTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7715C5CE1C259A98B336A18D /* Pods_PeloTracker.framework */; };
+		F26F698A2589530C0044575F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F69892589530C0044575F /* AppDelegate.swift */; };
+		F26F698C2589530C0044575F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F698B2589530C0044575F /* SceneDelegate.swift */; };
+		F26F69912589530C0044575F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26F698F2589530C0044575F /* Main.storyboard */; };
+		F26F69932589530C0044575F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26F69922589530C0044575F /* Assets.xcassets */; };
+		F26F69962589530C0044575F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26F69942589530C0044575F /* LaunchScreen.storyboard */; };
+		F26F699F2589557F0044575F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26F699E2589557F0044575F /* ViewController.swift */; };
+		F26F69A3258957BF0044575F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F26F69A2258957BF0044575F /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14558B88CBFE140CD284783B /* Pods-Bike Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bike Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Bike Tracker/Pods-Bike Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		7715C5CE1C259A98B336A18D /* Pods_PeloTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PeloTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4880D58D8C80282CC20658C /* Pods-PeloTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeloTracker.release.xcconfig"; path = "Target Support Files/Pods-PeloTracker/Pods-PeloTracker.release.xcconfig"; sourceTree = "<group>"; };
+		D65506FD47F904F3B286E329 /* Pods-Bike Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bike Tracker.release.xcconfig"; path = "Target Support Files/Pods-Bike Tracker/Pods-Bike Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		DE9F4ACA71686ECA78D561E8 /* Pods-PeloTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PeloTracker.debug.xcconfig"; path = "Target Support Files/Pods-PeloTracker/Pods-PeloTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		F26F69862589530C0044575F /* PeloTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PeloTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26F69892589530C0044575F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F26F698B2589530C0044575F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F26F69902589530C0044575F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26F69922589530C0044575F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26F69952589530C0044575F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26F69972589530C0044575F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26F699E2589557F0044575F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F26F69A2258957BF0044575F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26F69832589530C0044575F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5767FA044D29C2DBF736CF3 /* Pods_PeloTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02B68B1886A9E1C53964304E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7715C5CE1C259A98B336A18D /* Pods_PeloTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E62EAEB9FAD8D340FD1741A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14558B88CBFE140CD284783B /* Pods-Bike Tracker.debug.xcconfig */,
+				D65506FD47F904F3B286E329 /* Pods-Bike Tracker.release.xcconfig */,
+				DE9F4ACA71686ECA78D561E8 /* Pods-PeloTracker.debug.xcconfig */,
+				B4880D58D8C80282CC20658C /* Pods-PeloTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F26F697D2589530B0044575F = {
+			isa = PBXGroup;
+			children = (
+				F26F69882589530C0044575F /* PeloTracker */,
+				F26F69872589530C0044575F /* Products */,
+				E62EAEB9FAD8D340FD1741A0 /* Pods */,
+				02B68B1886A9E1C53964304E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F26F69872589530C0044575F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26F69862589530C0044575F /* PeloTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26F69882589530C0044575F /* PeloTracker */ = {
+			isa = PBXGroup;
+			children = (
+				F26F69892589530C0044575F /* AppDelegate.swift */,
+				F26F698B2589530C0044575F /* SceneDelegate.swift */,
+				F26F698F2589530C0044575F /* Main.storyboard */,
+				F26F699E2589557F0044575F /* ViewController.swift */,
+				F26F69922589530C0044575F /* Assets.xcassets */,
+				F26F69942589530C0044575F /* LaunchScreen.storyboard */,
+				F26F69972589530C0044575F /* Info.plist */,
+				F26F69A2258957BF0044575F /* GoogleService-Info.plist */,
+			);
+			path = PeloTracker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26F69852589530C0044575F /* PeloTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26F699A2589530C0044575F /* Build configuration list for PBXNativeTarget "PeloTracker" */;
+			buildPhases = (
+				FA107FA8118FA385C6BAFE07 /* [CP] Check Pods Manifest.lock */,
+				F26F69822589530C0044575F /* Sources */,
+				F26F69832589530C0044575F /* Frameworks */,
+				F26F69842589530C0044575F /* Resources */,
+				2843A6868489A01624655E01 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PeloTracker;
+			productName = "Bike Tracker";
+			productReference = F26F69862589530C0044575F /* PeloTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26F697E2589530B0044575F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					F26F69852589530C0044575F = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = F26F69812589530B0044575F /* Build configuration list for PBXProject "PeloTracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26F697D2589530B0044575F;
+			productRefGroup = F26F69872589530C0044575F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26F69852589530C0044575F /* PeloTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26F69842589530C0044575F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26F69962589530C0044575F /* LaunchScreen.storyboard in Resources */,
+				F26F69932589530C0044575F /* Assets.xcassets in Resources */,
+				F26F69912589530C0044575F /* Main.storyboard in Resources */,
+				F26F69A3258957BF0044575F /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2843A6868489A01624655E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeloTracker/Pods-PeloTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PeloTracker/Pods-PeloTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PeloTracker/Pods-PeloTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA107FA8118FA385C6BAFE07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PeloTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26F69822589530C0044575F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26F698A2589530C0044575F /* AppDelegate.swift in Sources */,
+				F26F698C2589530C0044575F /* SceneDelegate.swift in Sources */,
+				F26F699F2589557F0044575F /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F26F698F2589530C0044575F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26F69902589530C0044575F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26F69942589530C0044575F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26F69952589530C0044575F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26F69982589530C0044575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F26F69992589530C0044575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26F699B2589530C0044575F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9F4ACA71686ECA78D561E8 /* Pods-PeloTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDPR2LX8UA;
+				INFOPLIST_FILE = "$(SRCROOT)/PeloTracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinholmes.PeloTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F26F699C2589530C0044575F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4880D58D8C80282CC20658C /* Pods-PeloTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDPR2LX8UA;
+				INFOPLIST_FILE = "$(SRCROOT)/PeloTracker/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justinholmes.PeloTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26F69812589530B0044575F /* Build configuration list for PBXProject "PeloTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26F69982589530C0044575F /* Debug */,
+				F26F69992589530C0044575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26F699A2589530C0044575F /* Build configuration list for PBXNativeTarget "PeloTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26F699B2589530C0044575F /* Debug */,
+				F26F699C2589530C0044575F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26F697E2589530B0044575F /* Project object */;
+}

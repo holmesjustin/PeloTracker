@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bike_Tracker" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="6VQ-kg-huT">
+                                <rect key="frame" x="0.0" y="113" width="414" height="170"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today's Date:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wPD-nA-11w">
+                                        <rect key="frame" x="82" y="0.0" width="250" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="TeO-uo-GJ5"/>
+                                            <constraint firstAttribute="height" constant="25" id="ZbB-GH-nXc"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iqf-5r-fw6">
+                                        <rect key="frame" x="82" y="40" width="250" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="20" id="Oh8-h6-kW7"/>
+                                            <constraint firstAttribute="width" constant="250" id="d6k-DL-ZSv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Miles Biked Today..." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ujs-SJ-5Yg">
+                                        <rect key="frame" x="82" y="75" width="250" height="44"/>
+                                        <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="kyy-mF-nGP"/>
+                                            <constraint firstAttribute="height" constant="44" id="mZw-W8-gd2"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EB-Rj-22J">
+                                        <rect key="frame" x="82" y="134" width="250" height="36"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="hjz-4Q-rZl"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                        <state key="normal" title="Submit">
+                                            <color key="titleColor" systemColor="labelColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="submitTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OE6-k2-Jie"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Iqf-5r-fw6" firstAttribute="width" secondItem="wPD-nA-11w" secondAttribute="width" id="8Pl-44-81B"/>
+                                    <constraint firstItem="Ujs-SJ-5Yg" firstAttribute="width" secondItem="wPD-nA-11w" secondAttribute="width" id="ntR-r5-ztZ"/>
+                                    <constraint firstItem="4EB-Rj-22J" firstAttribute="width" secondItem="wPD-nA-11w" secondAttribute="width" id="tTg-xy-EOJ"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="dep-XG-d4O">
+                                <rect key="frame" x="50" y="383" width="314" height="130"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="w48-KI-KAx">
+                                        <rect key="frame" x="80.5" y="0.0" width="153" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miles Left:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EY1-zh-1VF">
+                                                <rect key="frame" x="0.0" y="0.0" width="116.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w94-5P-kVd">
+                                                <rect key="frame" x="124.5" y="0.0" width="28.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Hp7-aD-9lG">
+                                        <rect key="frame" x="81" y="50" width="152" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Days Left:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ki9-oo-DxL">
+                                                <rect key="frame" x="0.0" y="0.0" width="113.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcN-0a-njo">
+                                                <rect key="frame" x="123.5" y="0.0" width="28.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="we8-u0-kdn">
+                                        <rect key="frame" x="82" y="100" width="150" height="30"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miles/Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mf-in-7EQ">
+                                                <rect key="frame" x="0.0" y="0.0" width="112.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dpr-jE-vqw">
+                                                <rect key="frame" x="121.5" y="0.0" width="28.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ZDq-vY-S5s">
+                                <rect key="frame" x="0.0" y="633" width="414" height="121.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="If you continue your 5-day average rate, you will need to bike" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OPJ-rW-zdp">
+                                        <rect key="frame" x="57" y="0.0" width="300" height="41"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="oS7-Uj-0pD"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvJ-fZ-YlN">
+                                        <rect key="frame" x="57" y="56" width="300" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on the last day to get the PS5" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ww4-Md-lb5">
+                                        <rect key="frame" x="57" y="101" width="300" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="rvJ-fZ-YlN" firstAttribute="width" secondItem="OPJ-rW-zdp" secondAttribute="width" id="B8R-wA-PwL"/>
+                                    <constraint firstItem="Ww4-Md-lb5" firstAttribute="width" secondItem="OPJ-rW-zdp" secondAttribute="width" id="ttA-hU-91s"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6VQ-kg-huT" secondAttribute="trailing" id="9gg-u8-SkC"/>
+                            <constraint firstItem="ZDq-vY-S5s" firstAttribute="top" secondItem="dep-XG-d4O" secondAttribute="bottom" constant="120" id="C42-n3-xvx"/>
+                            <constraint firstItem="dep-XG-d4O" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EvM-Ee-4Lz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZDq-vY-S5s" secondAttribute="trailing" id="UNV-SD-xC6"/>
+                            <constraint firstItem="dep-XG-d4O" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="aJu-by-fe0"/>
+                            <constraint firstItem="ZDq-vY-S5s" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="eZt-Wy-zo6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dep-XG-d4O" secondAttribute="trailing" constant="50" id="kPs-De-5Zv"/>
+                            <constraint firstItem="6VQ-kg-huT" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lzr-II-pPG"/>
+                            <constraint firstItem="dep-XG-d4O" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="qEA-Y1-p4m"/>
+                            <constraint firstItem="dep-XG-d4O" firstAttribute="top" secondItem="6VQ-kg-huT" secondAttribute="bottom" constant="100" id="rrh-cm-7Ym"/>
+                            <constraint firstItem="ZDq-vY-S5s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zzz-Iw-iQr"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="bottomLabel" destination="Ww4-Md-lb5" id="HWM-Kv-ALi"/>
+                        <outlet property="dateLabel" destination="Iqf-5r-fw6" id="trZ-Sm-1cd"/>
+                        <outlet property="daysLeftTextField" destination="ki9-oo-DxL" id="oTB-2b-WQk"/>
+                        <outlet property="daysLeftVal" destination="UcN-0a-njo" id="djI-Uv-Mkc"/>
+                        <outlet property="lastDayVal" destination="rvJ-fZ-YlN" id="a3u-ct-9qW"/>
+                        <outlet property="mileInput" destination="Ujs-SJ-5Yg" id="Ph1-I9-hNx"/>
+                        <outlet property="milesLeftTextField" destination="EY1-zh-1VF" id="jNe-Ka-SrC"/>
+                        <outlet property="milesLeftVal" destination="w94-5P-kVd" id="KZL-BM-HQh"/>
+                        <outlet property="milesPerDayTextField" destination="0Mf-in-7EQ" id="cGK-l1-0ND"/>
+                        <outlet property="milesPerDayVal" destination="Dpr-jE-vqw" id="r52-H2-zcO"/>
+                        <outlet property="submitButton" destination="4EB-Rj-22J" id="ukv-oN-syD"/>
+                        <outlet property="todaysDate" destination="wPD-nA-11w" id="5e6-50-eMm"/>
+                        <outlet property="topLabel" destination="OPJ-rW-zdp" id="lRd-ym-Eag"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528.98550724637687" y="93.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
